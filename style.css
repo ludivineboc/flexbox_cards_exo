@@ -1,0 +1,189 @@
+/* Importation de la police 'Poppins' de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+/* Réinitialisation de la marge et du padding pour tous les éléments + application de la police 'Poppins' par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+}
+
+/* Style pour les titres */
+.titleFont {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Style pour les légendes */
+.legendFont {
+    font-size: 14px;
+    color: #666666;
+}
+
+/* Couleur de fond de la page */
+body {
+    background-color: #393838;
+}
+
+/* Propriété flex */ 
+
+/* Flex container pour l'alignement flexible des éléments enfants */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Distribution de l'espace entre les éléments enfants */
+.spaceBetween {
+    justify-content: space-between;
+}
+
+/* Alignement vertical des éléments enfants au centre */
+.alignItemsCenter {
+    align-items: center;
+}
+
+.gap {
+    gap: 15px;
+}
+
+/* Propriétés de tailles */ 
+
+/* 100% du parent */
+.width100 {
+    width: 100%;
+}
+
+/* 15% du parent */
+.width15 {
+    width: 15%;
+}
+
+/* 25% du parent */
+.width25 {
+    width: 25%;
+}
+
+/* 70% du parent */
+.width70 {
+    width: 70%;
+}
+
+/* 50% du parent */
+.width50 {
+    width: 50%;
+}
+
+/* Marges interne et externes */ 
+
+/* Padding interne de 24px */
+.padding24 {
+    padding: 24px;
+}
+
+/* Marges automatiques pour centrer les cartes */
+.marginCard {
+    margin: 15px auto;
+}
+
+/* Marge inférieure de 15px */
+.marginBottom {
+    margin-bottom: 15px;
+}
+
+
+/* propriétés de positionnement */ 
+/* Mettre au centre horizontalement */
+.center {
+    margin: auto;
+}
+
+/* Centrer */
+.alignCenter {
+    text-align: center;
+}
+
+/* Alignement à droite */
+.alignRight {
+    text-align: end;
+}
+
+/* Alignement à gauche */
+.alignLeft {
+    text-align: start;
+}
+
+
+/* propriétés d'images */
+/* Style pour les images circulaires, avec une taille fixe et un ajustement de couverture */
+.circleImg {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 100px; /* Crée un effet de cercle parfait */
+}
+
+/* Style pour les images en forme de cube avec coins arrondis d'un côté */
+.cubicImg {
+    width: 20%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px 0px 0px 12px;
+}
+
+
+
+/* composant boutons et tag */
+/* Style pour les boutons principaux avec fond foncé, coins arrondis et texte blanc */
+.primaryBtn {
+    background-color: #3C3C43;
+    display: inline-block;
+    border-radius: 32px;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 18px;
+    margin-top: 15px;
+}
+
+/* Style pour les boutons secondaires avec bordure foncée et texte foncé */
+.secondaryBtn {
+    border: 1px solid #3C3C43;
+    display: inline-block;
+    border-radius: 32px;
+    color: #3C3C43;
+    text-decoration: none;
+    padding: 8px 18px;
+    margin-top: 15px;
+}
+
+/* Style pour les étiquettes avec bordure et couleur de texte foncées, taille de police réduite */
+.tag {
+    font-size: 12px;
+    border: 1px solid #3C3C43;
+    display: inline-block;
+    border-radius: 32px;
+    color: #3C3C43;
+    text-decoration: none;
+    padding: 8px;
+    margin-top: 15px;
+}
+
+
+/* autres */
+/* Style pour la description des produits avec une bordure inférieure */
+.descProduct {
+    border-bottom: solid 2px #666666;
+    padding-bottom: 5px;
+}
+
+
+/* Coins arrondis de 12px */
+.radius12 {
+    border-radius: 12px;
+}
+
+/* Couleur de fond blanche */
+.bgWhite {
+    background-color: #fff;
+}
